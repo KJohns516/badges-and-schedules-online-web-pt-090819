@@ -57,7 +57,7 @@ TEXT
 
     it 'should return a formatted badge' do
       expect(badge_maker(name)).to eq("Hello, my name is #{name}.")
-      batch_badge_creator.return
+      batch_badge_creator.assign_rooms.return
     end
 
   end
