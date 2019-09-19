@@ -57,7 +57,12 @@ TEXT
 
     it 'should return a formatted badge' do
       expect(badge_maker(name)).to eq("Hello, my name is #{name}.")
-      printer(batch_badge_creator).to eq(assign_rooms)
+      badge_maker(Edsger)
+      badge_maker(Ada)
+      badge_maker(Charles)
+      badge_maker(Grace)
+      badge_maker(Linus)
+      badge_maker(Matz)
     end
 
   end
