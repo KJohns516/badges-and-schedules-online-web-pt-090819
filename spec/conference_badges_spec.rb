@@ -63,6 +63,7 @@ TEXT
       badge_maker(Grace)
       badge_maker(Linus)
       badge_maker(Matz)
+      return
     end
 
   end
