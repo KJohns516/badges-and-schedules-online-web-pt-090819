@@ -63,7 +63,7 @@ TEXT
       badge_maker(Grace)
       badge_maker(Linus)
       badge_maker(Matz)
-      return
+      return.batch_badge_creator
     end
 
   end
